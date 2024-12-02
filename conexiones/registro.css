@@ -1,0 +1,75 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 0, 0),rgb(255, 0, 0), rgb(0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px 80px;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 8px;
+    box-shadow: 0 10px 10px rgb(0, 0, 0);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #ff0000;
+  }
+  
+  .btn {
+    display: inline-block;
+    width: auto;
+    padding: 12px 24px;
+    background-color: #ff050577; /* Color de fondo suave */
+    border: 2px solid #ff0000; /* Borde azul */
+    color: #17181a; /* Texto azul */
+    border-radius: 6px; /* Bordes redondeados */
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.btn:hover {
+    background-color: #0000004f; /* Fondo más vivo */
+    color: #000000; /* Texto */
+    border-color:  rgb(0, 0, 0); /* Borde más oscuro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más fuerte */
+}
